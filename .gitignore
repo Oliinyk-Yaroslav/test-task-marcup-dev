@@ -1,0 +1,6 @@
+test-task-for-markup-developer.pdf
+package-lock.json
+package.json
+/node_modules
+/dist
+/.cache

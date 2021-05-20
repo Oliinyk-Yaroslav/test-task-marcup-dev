@@ -1,0 +1,103 @@
+//settings
+@import "/settings/app.colors.style.scss";
+@import "/settings/app.settings.style.scss";
+@import "/settings/app.fonts.styles.scss";
+@import "/settings/app.reset.style.scss";
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar {
+    min-width: 200px;
+    width: 200px;
+    overflow: auto;
+    border: solid 2px black;
+    margin-right: 5px;
+    
+    &_sm {
+        min-width: 100px;
+        width: 100px;
+    }
+}
+
+.main {
+    flex-grow: 1;
+    border: solid 2px black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    &__header {
+        min-height: 100px;
+        width: 100%;
+        border: solid 2px black;
+        margin-bottom: 5px;
+    }
+
+    &__content {
+        border: solid 2px black;
+        overflow: auto;
+
+    }
+
+    &__static-content {
+        background-color: darkgreen;
+        height: 200px;
+
+        position: sticky;
+        left: 0;
+
+    }
+}
+
+.table-width-checkbox {
+    margin: 5px 0;
+}
+
+table, tr, td {
+    border: solid 1px white;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+.table-width-checkbox__checkbox {
+    padding: 5px;
+
+
+}
+
+.table-width-checkbox__title {
+    padding: 0 30px;
+    white-space: nowrap;
+}
+
+
+
+.a {
+    position: sticky;
+    top: 0;
+    background-color: blue;
+    box-shadow: 1px 1px white, -1px -1px white;
+
+}
+
+.b {
+    position: sticky;
+    left: 0;
+    background-color: darkslateblue;
+    box-shadow: 1px 1px white, -1px -1px white;
+
+    z-index: 1;
+}
+
+.c {
+    background-color: blue;
+    z-index: 2;
+    //border: 1px solid white;
+    box-shadow: 1px 1px white, -1px -1px white;
+
+}

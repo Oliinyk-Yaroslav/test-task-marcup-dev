@@ -1,0 +1,102 @@
+$default-800: #161616;
+$default-700: #333333;
+$default-600: #393939;
+$default-400: #6f6f6f;
+$default-350: #8d8d8d;
+$default-370: #f9f9f9;
+$default-300: #a8a8a8;
+$default-250: #828282;
+$default-200: #e0e0e0;
+$default-150: #4F4F4F;
+$default-100: #f4f4f4;
+$default-50:  #f4f4f4;
+$default-0:   #fff;
+
+$azure: #A3BAF8;
+$purple: #8a3ffc;
+$visited-links: $purple;
+$primary-shade: #1a347a;
+$primary: #22429a;
+$primary-darken: #293042;
+$accent: #ffdf17;
+$light: #e8f0ff;
+$link: #1e4dba;
+$link-hover: #255fe5;
+$primary-border: #255fe5;
+$gradient-shade: #1e42a6;
+
+$error: #d8222f;
+$success: #12c283;
+$warning: #fcd04b;
+$info: #498cfc;
+
+$toast-error: $error;
+$toast-warning: $warning;
+$toast-success: $success;
+$toast-info: #498cfc;
+$toast-text: $default-700;
+
+$map-active-date: #219653;
+$map-active-warning: #EB5757;
+$background-route-icon: $link;
+
+$text-lighter: $default-0;
+$text-light-default: $default-300;
+$text-light-default-400: $default-400;
+$text-dark: $default-800;
+$text-link: $link;
+
+$block-title-color: $text-dark;
+
+$border-light-color:  $default-0;
+$border-nav:  $default-200;
+$border-light-grey: #F3F3F3;
+$border-input-route-map: #97bcf9;
+
+$flag-blue: #2669e3;
+$flag-yellow: #ffe358;
+
+$template-default-bg: $default-0;
+$template-main-bg: $default-100;
+$template-light-bg: $light;
+$template-primary-bg: $primary;
+$template-darken-bg: #292929;
+
+$section-light: $template-default-bg;
+$section-gray: $default-50;
+$section-grey-light: $default-370;
+
+$tile-bg: $default-370;
+$tile-shadow: $default-100;
+
+$footer-bg: $template-darken-bg;
+
+//Checkbox
+$toggle-day-bg:                    #eff1f8;
+$toggle-night-bg:                  #00ebfd;
+$toggle-day-btn-bg:                $toggle-night-bg;
+$toggle-night-btn-bg:              $toggle-day-bg;
+
+$desktop-main-menu: $primary-shade;
+$desktop-main-menu-xs: $template-primary-bg;
+$desktop-main-menu-link-color: $text-lighter;
+$desktop-main-menu-link-hover-color: $accent;
+$desktop-main-menu-link-hover-bg: $primary-darken;
+
+//Alerts colors
+$alerts-themes: (
+    alert_warning: #ffdf17,
+    alert_danger: $error,
+    alert_success: $success,
+    alert_info: $primary
+);
+
+$input-with-button__input-bg: $default-0;
+$input-with-button__input-border: $default-300;
+$input-with-button__button: $primary;
+
+$map-city-ellipse-fill: $primary;
+$map-city-name-color: $text-dark;
+$map-city-data-text-color: $primary;
+
+
